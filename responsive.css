@@ -1,0 +1,20 @@
+@media only screen and (max-height: 480px){
+	.red{
+		display: none;
+	}
+	.columnasx3{
+		width: 100%;
+	}
+	.tablax4{
+		width: 100%;
+	}
+	.tablaxd{
+		width: 100%;
+	}
+}
+/*@media only screen and (min-height: 481px) and (max-height: 768px){
+	.red{
+		display: none;
+	}
+}*/
+

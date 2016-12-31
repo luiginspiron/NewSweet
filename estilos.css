@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	background: rgba(255,0,128,.3);
+	height: 70px;
+	position: fixed;
+	z-index: 10;
+}
+/* aqui estamos modificando el ancho */
+.ancho{
+	width: 80%;
+	height: 70px;
+	/*background: red;*/
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: raleway;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: raleway;
+}
+nav ul li a:hover{
+	color: #444;
+}
+@font-face{
+	font-family: raleway;
+	src: url(fuentes/Raleway-Regular.ttf);
+}
+
+
+
+
+        footer {
+
+            position: relative;
+
+            /* Altura total del footer en px con valor negativo */
+
+            margin-top: -50px;
+
+            /* Altura del footer en px. Se han restado los 5px del margen
+
+               superior mas los 5px del margen inferior
+
+            */
+
+            height: 40px;
+
+            padding:5px 0px;
+
+            clear: both;
+
+            background: pink;
+
+            text-align: center;
+
+            color: #fff;
+
+        }
+
+                /* Esta clase define la anchura del contenido y la posicion centrada 
+
+           El contenido queda centrado y limitado, pero la cabecera y el pie
+
+           llegan hasta los limites del navegador.
+
+        */
+
+
+        .define {
+
+            width:960px;
+
+            margin:0 auto;
+
+        }
+
+
+
